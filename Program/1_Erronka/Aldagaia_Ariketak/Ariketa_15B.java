@@ -69,8 +69,9 @@ public class Ariketa_15B {
 			System.out.println("Pais: " + pais);
 			System.out.println("Ciudad: " + ciudad);
 			System.out.println("Numero de cuenta: " + cuentas);
-			System.out.println("Nuevo suma de saldo: " + nuevo + "€");
-			System.out.println("Saldo disponible: " + saldo + "€");
+			System.out.println("Saldo ingresafo: " + nuevo + "€");
+			System.out.println("Saldo antigüo: " + saldo + "€");
+			System.out.println("Nuevo saldo disponible: " + (saldo + nuevo) + "€");
 			
 			if (saldo > 0) {
 				System.out.println("Su saldo es 'ACREDOR'");
