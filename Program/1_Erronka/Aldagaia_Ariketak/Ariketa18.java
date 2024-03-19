@@ -104,7 +104,7 @@ public class Ariketa18 {
 				System.out.println();
 				
 			}
-			
+			teclado.close();
 		} while (opcion != 5);
 	}
 
