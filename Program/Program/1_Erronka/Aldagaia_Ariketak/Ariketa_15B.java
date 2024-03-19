@@ -13,6 +13,8 @@ public class Ariketa_15B {
 
 		System.out.println();
 		
+		int nuevo = 0;
+		
 		System.out.println("Dime cuantas cuentas bancarias quieres meter?");
 		Scanner teclado = new Scanner(System.in);
 		String katea = teclado.nextLine();
@@ -47,7 +49,7 @@ public class Ariketa_15B {
 			case 1:
 					System.out.println("Cuanto diero quieres meter?");
 					katea = teclado.nextLine();
-					int nuevo = Integer.parseInt(katea);
+					nuevo = Integer.parseInt(katea);
 					break;
 					
 				case 2:
@@ -67,7 +69,7 @@ public class Ariketa_15B {
 			System.out.println("Pais: " + pais);
 			System.out.println("Ciudad: " + ciudad);
 			System.out.println("Numero de cuenta: " + cuentas);
-			System.out.println("Nuevo suma de saldo: " + nuevo);
+			System.out.println("Nuevo suma de saldo: " + nuevo + "€");
 			System.out.println("Saldo disponible: " + saldo + "€");
 			
 			if (saldo > 0) {
